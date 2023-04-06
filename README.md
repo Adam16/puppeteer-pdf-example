@@ -47,3 +47,26 @@ const puppeteer = require("puppeteer");
 ## Helpful information from the internet
 
 - Page break: https://github.com/puppeteer/puppeteer/issues/5277
+
+## Running the code
+
+Node version >= 18.x
+
+`npm install`
+
+Just for first preview. The code is not optimized for production.
+
+### Build Astro SSR middleware
+
+`npm run astro:build`
+
+### Build Fastify Server
+
+`npm run build:gen`
+
+### Run Fastify Server with Astro SSR middleware and Puppeteer (pdf generation)
+
+`npm run prod:start`
+
+- http://localhost:8080 - Astro Page preview
+- http://localhost:8080/pdf - PDF generation

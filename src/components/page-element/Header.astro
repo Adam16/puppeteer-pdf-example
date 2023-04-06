@@ -1,0 +1,21 @@
+---
+import Headline from "../Headline.astro";
+import logo from "../assets/logo.png";
+---
+
+<header>
+  <img width="64" src={logo} alt="logo" class="logo" />
+  <nav class="navigation">
+    <a href="#">Home</a>
+    <a href="#">Posts</a>
+    <a href="#">Contact</a>
+  </nav>
+  <Headline title="Welcome to my PDF" />
+</header>
+<style>
+  header {
+    border-bottom: 1px solid #ccc;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+</style>

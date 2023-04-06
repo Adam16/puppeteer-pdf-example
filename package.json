@@ -26,6 +26,9 @@
         "dist"
     ],
     "scripts": {
+        "astro:start": "astro dev",
+        "astro:build": "astro build",
+        "astro:preview": "astro preview",
         "applyProjectTemplate": "applyProjectTemplate",
         "build": "npm run build:clean && npm run build:gen",
         "build:check": "tsc --noEmit",
@@ -128,10 +131,16 @@
         "verbose": false
     },
     "dependencies": {
+        "@astrojs/node": "^5.1.1",
+        "@fastify/middie": "^8.1.0",
+        "@fastify/static": "^6.10.0",
+        "astro": "^2.2.0",
+        "fastify": "^4.15.0",
         "puppeteer": "^19.8.3"
     },
     "devDependencies": {
         "@msamblanet/node-project-template": "^0.7.2",
+        "@types/node": "^18.15.11",
         "@types/puppeteer": "^7.0.4"
     },
     "engines": {
