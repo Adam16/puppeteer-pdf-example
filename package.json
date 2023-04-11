@@ -132,13 +132,22 @@
     },
     "dependencies": {
         "@astrojs/node": "^5.1.1",
+        "@fastify/autoload": "^5.7.1",
+        "@fastify/cors": "^8.2.1",
+        "@fastify/helmet": "^10.1.0",
         "@fastify/middie": "^8.1.0",
         "@fastify/static": "^6.10.0",
-        "astro": "^2.2.1",
+        "@fastify/type-provider-typebox": "^3.0.0",
+        "@sinclair/typebox": "^0.26.8",
+        "astro": "^2.2.0",
         "fastify": "^4.15.0",
-        "puppeteer": "^19.8.5"
+        "fastify-autoload": "^3.13.0",
+        "fastify-cors": "^6.1.0",
+        "fastify-helmet": "^7.1.0",
+        "puppeteer": "^19.8.3"
     },
     "devDependencies": {
+        "@faker-js/faker": "^7.6.0",
         "@msamblanet/node-project-template": "^0.7.2",
         "@types/node": "^18.15.11",
         "@types/puppeteer": "^7.0.4"
