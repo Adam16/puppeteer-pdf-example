@@ -136,7 +136,7 @@
         "@fastify/static": "^6.10.0",
         "astro": "^2.2.1",
         "fastify": "^4.15.0",
-        "puppeteer": "^19.8.3"
+        "puppeteer": "^19.8.5"
     },
     "devDependencies": {
         "@msamblanet/node-project-template": "^0.7.2",
