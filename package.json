@@ -136,7 +136,7 @@
         "@fastify/cors": "^8.2.1",
         "@fastify/helmet": "^10.1.0",
         "@fastify/middie": "^8.1.0",
-        "@fastify/static": "^6.10.0",
+        "@fastify/static": "^6.10.1",
         "@fastify/type-provider-typebox": "^3.0.0",
         "@sinclair/typebox": "^0.26.8",
         "astro": "^2.2.0",
