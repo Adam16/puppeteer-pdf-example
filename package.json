@@ -149,7 +149,7 @@
     "devDependencies": {
         "@faker-js/faker": "^7.6.0",
         "@msamblanet/node-project-template": "^0.7.2",
-        "@types/node": "^18.15.11",
+        "@types/node": "^18.16.0",
         "@types/puppeteer": "^7.0.4"
     },
     "engines": {
