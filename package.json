@@ -137,7 +137,7 @@
         "@fastify/helmet": "^10.1.0",
         "@fastify/middie": "^8.1.0",
         "@fastify/static": "^6.10.1",
-        "@fastify/type-provider-typebox": "^3.1.0",
+        "@fastify/type-provider-typebox": "^3.3.0",
         "@sinclair/typebox": "^0.28.9",
         "astro": "^2.4.3",
         "fastify": "^4.17.0",
